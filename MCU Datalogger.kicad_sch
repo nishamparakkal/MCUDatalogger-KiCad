@@ -2,8 +2,14 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid b73ecac8-4a36-487b-b5fb-782ebc8b8ea9)
+	(uuid "b73ecac8-4a36-487b-b5fb-782ebc8b8ea9")
 	(paper "A4")
+	(title_block
+		(title "MCU Datalogger")
+		(date "2026-06-04")
+		(rev "1")
+		(company "Nisham Parakkal")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
