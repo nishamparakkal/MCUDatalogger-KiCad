@@ -2833,6 +2833,12 @@
 		(uuid "1501d9d8-8e14-43ae-af4c-a20c0fc66bf3")
 	)
 	(junction
+		(at 110.49 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca37c57-ad31-4d28-9e1a-5b034a4161ac")
+	)
+	(junction
 		(at 130.175 140.335)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3530,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 41.91) (xy 113.03 41.91)
+			(xy 100.965 41.91) (xy 110.49 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3850,6 +3856,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ce880f-1e50-43d0-b127-1700ccf76677")
+	)
+	(wire
+		(pts
 			(xy 66.675 158.75) (xy 80.645 158.75)
 		)
 		(stroke
@@ -4097,6 +4113,16 @@
 			(justify right bottom)
 		)
 		(uuid "562b1ed3-8f81-49bc-bcf0-351953cb1697")
+	)
+	(label "RESET"
+		(at 234.315 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "590a528f-73fd-43d7-afbe-5cd4d3c8d4f7")
 	)
 	(label "D6"
 		(at 193.675 138.43 180)
@@ -7127,6 +7153,84 @@
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0527132-086e-4042-961a-3b64189efb2c")
+		(property "Reference" "#FLG03"
+			(at 110.49 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 37.465 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d940ce1c-0827-4b28-b961-3ce4e84c1f39")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
