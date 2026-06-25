@@ -2673,8 +2673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0847a9d2-d4d9-4bb6-81f7-c5fbda1abeab")
-		(property "Reference" "R3"
-			(at 147.955 156.8449 0)
+		(property "Reference" "R4"
+			(at 148.59 156.8449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2684,8 +2684,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 147.955 159.3849 0)
+		(property "Value" "4.7K"
+			(at 148.59 159.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2728,6 +2728,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 146.05 158.115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a66043a-f22f-4d6d-9f3a-97c101062780")
 		)
@@ -2737,7 +2747,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2755,7 +2765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b58b3eb-c802-485e-ab26-40a7b206aa0d")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 137.16 156.8449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 137.16 159.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,6 +2820,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 135.255 158.115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d139b86-35f1-435a-acec-028c90b0bd3e")
 		)
@@ -2819,7 +2839,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2847,7 +2867,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz"
 			(at 196.85 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2890,6 +2910,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 196.85 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bcd55ba7-3eae-45c7-aee5-b51fda50eb30")
 		)
@@ -2917,8 +2947,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16943f56-61d4-4017-961f-9651c9be75d0")
-		(property "Reference" "R4"
-			(at 93.345 54.6099 0)
+		(property "Reference" "R1"
+			(at 93.98 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2928,8 +2958,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 93.345 57.1499 0)
+		(property "Value" "10K"
+			(at 93.98 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2972,6 +3002,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 91.44 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d07075e-a124-4480-9702-59ddab92558e")
 		)
@@ -2981,7 +3021,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3124,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 196.85 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,6 +3199,16 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 196.85 40.005 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 196.85 40.005 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3305,7 +3355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 118.745 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,6 +3391,16 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 114.935 55.88 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 114.935 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3784,7 +3844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 255.905 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,6 +3880,16 @@
 		(property "Description" "Resistor"
 			(at 254 85.09 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 254 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3865,7 +3935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100nF"
 			(at 250.825 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,6 +3971,16 @@
 		(property "Description" "Polarized capacitor"
 			(at 254 51.435 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 254 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4127,8 +4207,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ead6e67-84b7-47a5-9b62-19b3a577045c")
-		(property "Reference" "R6"
-			(at 180.975 50.165 90)
+		(property "Reference" "R5"
+			(at 180.975 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4137,8 +4217,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 180.975 52.705 90)
+		(property "Value" "330"
+			(at 180.975 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4180,6 +4260,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 180.975 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fb670ef2-b9b4-45ac-818d-6b679d760821")
 		)
@@ -4189,7 +4279,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945997ec-add4-4743-8bbd-a807ee2c6d96")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 105.41 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 105.41 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,6 +4428,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 103.505 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ffbf498d-50d1-47fe-ae22-b136081b332d")
 		)
@@ -4347,7 +4447,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4365,7 +4465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8399112-05ec-40b5-a867-9138b5b4e56f")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 196.85 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 196.85 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,6 +4518,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 196.85 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7f7eafd-3c28-4157-a16f-af04583c9060")
 		)
@@ -4427,7 +4537,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4456,7 +4566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 184.785 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,6 +4602,16 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 180.975 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 180.975 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4538,7 +4658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 184.785 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,6 +4694,16 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 180.975 86.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 180.975 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +4901,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 KHz"
 			(at 31.75 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,6 +4936,16 @@
 		(property "Description" "Two pin crystal"
 			(at 31.75 64.135 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 31.75 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
