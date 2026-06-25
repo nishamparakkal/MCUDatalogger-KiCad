@@ -1,5 +1,11 @@
 # MCU Datalogger
 
+A microcontroller-based data logger designed in KiCad
+
+## Tools Used
+- KiCad 10
+- Git
+
 ## Schematic
 
 ![Schematic](screenshots/Screenshot_20260625_235110.png)
