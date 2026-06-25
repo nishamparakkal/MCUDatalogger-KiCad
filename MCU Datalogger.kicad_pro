@@ -426,13 +426,17 @@
         "uuid": "b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-4,Y1-2,H1-4,BT1,D1-2,C1-5,R1-7,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "b73ecac8-4a36-487b-b5fb-782ebc8b8ea9",
       "Root"
+    ],
+    [
+      "2c854e0b-a623-46a9-a005-dfed31ab0568",
+      "Connectors"
     ]
   ],
   "text_variables": {
