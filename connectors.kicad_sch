@@ -1022,7 +1022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31b3e395-b331-4a08-a972-6564b514a43e")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 103.505 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1042,7 +1042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 102.87 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1115,7 +1115,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9/2c854e0b-a623-46a9-a005-dfed31ab0568"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1152,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 128.905 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -1253,7 +1253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1328,7 +1328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4e37627-1ea4-4fdc-8764-cd1b30082d21")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 119.38 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 118.745 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1406,7 +1406,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9/2c854e0b-a623-46a9-a005-dfed31ab0568"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)

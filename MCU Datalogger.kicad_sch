@@ -2619,7 +2619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 258.445 125.095 0)
 			(hide yes)
 			(show_name no)
@@ -2695,7 +2695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.272 158.115 90)
 			(hide yes)
 			(show_name no)
@@ -2787,7 +2787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.477 158.115 90)
 			(hide yes)
 			(show_name no)
@@ -2877,7 +2877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2969,7 +2969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 89.662 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3061,7 +3061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 271.145 49.911 90)
 			(hide yes)
 			(show_name no)
@@ -3174,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 200.66 39.0398 0)
 			(hide yes)
 			(show_name no)
@@ -3266,7 +3266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 77.47 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -3366,7 +3366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.9002 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3458,7 +3458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3529,7 +3529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62396aaf-cc40-4cd1-99d1-f9e8817cb7a0")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 229.235 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +3815,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3855,7 +3855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 252.222 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -3946,7 +3946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 254.9652 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -4036,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 196.85 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4107,8 +4107,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827fd6ce-9c4c-4219-93fa-9522c90984f9")
-		(property "Reference" "U2"
-			(at 114.5383 150.495 0)
+		(property "Reference" "U3"
+			(at 114.5383 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4119,7 +4119,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 114.5383 153.035 0)
+			(at 114.5383 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4129,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 112.395 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -4189,7 +4189,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 180.975 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -4319,7 +4319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 258.445 133.985 0)
 			(hide yes)
 			(show_name no)
@@ -4395,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.727 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4485,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.85 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -4577,7 +4577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.9402 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4669,7 +4669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.9402 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4761,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 258.445 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4837,7 +4837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 258.445 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -4911,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
 			(at 31.75 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -4981,8 +4981,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f918fc68-c71a-4716-a1b0-033b1bad7e0c")
-		(property "Reference" "U4"
-			(at 64.77 46.355 0)
+		(property "Reference" "U2"
+			(at 64.77 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4992,7 +4992,7 @@
 			)
 		)
 		(property "Value" "DS1337S_"
-			(at 64.77 48.895 0)
+			(at 64.77 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5147,7 +5147,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/b73ecac8-4a36-487b-b5fb-782ebc8b8ea9"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
